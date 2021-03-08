@@ -1,0 +1,34 @@
+#theme{
+  background-color:#3e76f5;
+}
+#texttheme{
+  color:#3e76f5;
+}
+#banner{
+    min-height: 708px
+}
+
+#splash{
+    margin-top: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    /*border: 1px solid red;*/
+    /*min-width: 750px;*/
+}
+#splash2{
+    margin-top: 130px;
+    padding: 15px;
+}
+#lessons{
+    margin-top:60px;
+    margin-bottom:60px;
+    padding: 15px;
+
+}
+.row{
+    border: 4px dotted blue;
+}
+.col, [class*="col-"] {
+    border: 2px solid red
+	}

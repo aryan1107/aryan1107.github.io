@@ -98,3 +98,21 @@ a:hover{
   height: auto;
 }
 }
+@media screen and (min-width: 1100px) {
+  #splash2 {
+    margin-top: 110px;
+    position: relative;
+    display: block;
+  }
+  #splash3{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: -10%;
+    transform: translate(-50%,-50%);
+}
+.img-fluid {
+  max-width: 150%;
+  height: auto;
+}
+}
+

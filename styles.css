@@ -65,7 +65,7 @@ a:hover{
   color:white;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (min-width: 700px) {
   #splash2 {
     margin-top: 110px;
     position: static;
@@ -76,7 +76,25 @@ a:hover{
     margin-left: 0%;
     transform: translate(0%,0%);
 }
-  .img-fluid {
-  max-height: 50%;
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+}
+}
+
+@media screen and (min-width: 375px) {
+  #splash2 {
+    margin-top: 110px;
+    position: static;
+  }
+  #splash3{
+    position: static;
+    margin-top: 0%;
+    margin-left: 0%;
+    transform: translate(0%,0%);
+}
+.img-fluid {
+  max-width: 80%;
+  height: auto;
 }
 }

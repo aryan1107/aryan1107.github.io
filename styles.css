@@ -76,4 +76,8 @@ a:hover{
     margin-left: 0%;
     transform: translate(0%,0%);
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 }

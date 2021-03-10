@@ -65,7 +65,7 @@ a:hover{
   color:white;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 600px) {
   #splash2 {
     margin-top: 110px;
     position: static;

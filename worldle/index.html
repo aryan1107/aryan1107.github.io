@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worldle — Aryan</title>
+  <meta name="description" content="Guess the country from its silhouette. A daily geography puzzle, plus Daily Flags — for iPhone, iPad, and Mac.">
+  <link rel="stylesheet" href="../assets/eink.css">
+</head>
+<body>
+<div class="wrap narrow">
+
+  <a class="back-link ink-in ink-in-1" href="../index.html">
+    <svg viewBox="0 0 20 14" fill="none" stroke="currentColor"
+         stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 2 L 2 7 L 8 12"/><path d="M2 7 H 18"/>
+    </svg>
+    back to the workshop
+  </a>
+
+  <header class="app-hero">
+    <span class="kicker ink-in ink-in-2">~ geography puzzle</span>
+    <h1 class="ink-in ink-in-2">Worldle.</h1>
+
+    <svg class="underline-doodle ink-in ink-in-2" viewBox="0 0 280 14"
+         fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"
+         aria-hidden="true">
+      <path d="M2 8 Q 40 2, 80 7 T 160 6 T 240 8 L 276 5"/>
+    </svg>
+
+    <p class="intro ink-in ink-in-3">
+      Guess the country from its silhouette. A new puzzle every day.
+      Plus Daily Flags — a second daily round one tap away. Streaks,
+      widgets, Siri, Spotlight. Free to play; optional Premium to
+      remove ads.
+    </p>
+
+    <!-- a small globe + flag doodle -->
+    <svg style="display:block; margin: 24px 0 0; opacity: 0.6;"
+         width="120" height="50" viewBox="0 0 120 50" fill="none"
+         stroke="var(--ink-faint)" stroke-width="1.3"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <!-- globe -->
+      <circle cx="22" cy="26" r="14"/>
+      <path d="M22 12 Q 32 26 22 40"/>
+      <path d="M22 12 Q 12 26 22 40"/>
+      <path d="M8 26 H 36"/>
+      <!-- arrow -->
+      <path d="M44 26 Q 60 18 76 26 T 102 22"/>
+      <path d="M102 22 L 96 21"/>
+      <path d="M102 22 L 100 26"/>
+      <!-- flag -->
+      <path d="M104 14 V 38"/>
+      <path d="M104 14 H 116 L 112 19 L 116 24 H 104"/>
+    </svg>
+  </header>
+
+  <div class="app-links-grid ink-in ink-in-4">
+    <a class="app-link external" href="https://apps.apple.com/app/id6444294446" target="_blank" rel="noopener">
+      <span class="label">try it</span>
+      <span class="name">App Store</span>
+    </a>
+    <a class="app-link" href="privacy.html">
+      <span class="label">the small print</span>
+      <span class="name">privacy policy</span>
+    </a>
+    <a class="app-link" href="terms.html">
+      <span class="label">the small print</span>
+      <span class="name">terms of service</span>
+    </a>
+    <a class="app-link" href="support.html">
+      <span class="label">need a hand?</span>
+      <span class="name">support</span>
+    </a>
+  </div>
+
+  <div class="flourish ink-in ink-in-5" aria-hidden="true">
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 2, 40 7 T 78 7"/>
+    </svg>
+    <span class="ast">❦</span>
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 12, 40 7 T 78 7"/>
+    </svg>
+  </div>
+
+  <section class="ink-in ink-in-5">
+    <h2>About Worldle.</h2>
+    <p>
+      Worldle is a daily geography puzzle for iPhone, iPad, and Mac.
+      Each day we show the silhouette of a country — your job is to
+      guess which one. Wrong guesses give you a distance, direction,
+      and proximity hint to nudge you toward the answer. Six guesses,
+      one country, fresh every 24 hours.
+    </p>
+    <p>
+      A second daily round, <em>Daily Flags</em>, lives one tap away.
+      Free to play with ads; a one-time Premium upgrade removes them
+      and unlocks a few small extras. Streaks and stats live on your
+      device — no account needed.
+    </p>
+    <h2>What's inside.</h2>
+    <ul>
+      <li>A new daily geography puzzle, plus Daily Flags as a bonus round.</li>
+      <li>Home-screen and lock-screen widgets that show your streak at a glance.</li>
+      <li>Siri shortcuts and Spotlight search — say it or search it, jump straight in.</li>
+      <li>A gentle reminder if you've been away for a day or more, never spammy.</li>
+      <li>An in-app AI helper for hints and quick geography questions.</li>
+    </ul>
+  </section>
+
+  <footer class="ink-in ink-in-6">
+    <div>
+      © <span id="year"></span> Aryan<br>
+      <a href="../index.html">workshop</a>
+    </div>
+    <div class="signature">— made with care.</div>
+  </footer>
+
+</div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.addEventListener('pointermove', (e) => {
+    document.body.style.setProperty('--mx', (e.clientX / window.innerWidth * 100) + '%');
+    document.body.style.setProperty('--my', (e.clientY / window.innerHeight * 100) + '%');
+  });
+</script>
+</body>
+</html>

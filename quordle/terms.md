@@ -103,4 +103,5 @@ change takes effect means you accept the updated terms.
 
 ## 13. Contact
 
-[app+quordle@brutusai.com](mailto:app+quordle@brutusai.com).
+For questions about these terms, see the
+[support page](support.html) for ways to reach us.

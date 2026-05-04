@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aryan — small things, made by hand</title>
+  <meta name="description" content="A few apps I've made. With privacy notes and the rest of the small print.">
+  <link rel="stylesheet" href="assets/eink.css">
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ════════════════════════════════════════════════════════════
+       HEADER  —  scattered with little drawings
+       ════════════════════════════════════════════════════════════ -->
+  <header style="position: relative; min-height: 280px;">
+
+    <!-- top-right: a flock of swifts -->
+    <svg class="flock" style="position:absolute; top: 8px; right: 18px; opacity: 0.9; transform: rotate(8deg);"
+         width="120" height="64" viewBox="0 0 120 64" fill="none" stroke="var(--ink)"
+         stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M4 30 Q 10 22 16 26 T 28 24"/>
+      <path d="M28 24 Q 32 19 36 24"/>
+      <path d="M28 24 Q 32 28 36 24"/>
+      <path d="M40 18 Q 46 12 52 16 T 64 14"/>
+      <path d="M64 14 Q 68 10 72 14"/>
+      <path d="M64 14 Q 68 18 72 14"/>
+      <path d="M76 38 Q 84 30 92 34 T 108 32"/>
+      <path d="M108 32 Q 112 28 116 32"/>
+      <path d="M108 32 Q 112 36 116 32"/>
+      <circle cx="115" cy="32" r="1.2" fill="var(--ink)"/>
+      <circle cx="35.5" cy="24" r="1" fill="var(--ink)"/>
+      <circle cx="71" cy="14" r="1" fill="var(--ink)"/>
+    </svg>
+
+    <!-- top-left: a small sun -->
+    <svg style="position:absolute; top: -4px; left: -8px; opacity: 0.55; transform: rotate(-12deg);"
+         width="56" height="56" viewBox="0 0 56 56" fill="none" stroke="var(--accent-soft)"
+         stroke-width="1.3" stroke-linecap="round" aria-hidden="true">
+      <circle cx="28" cy="28" r="9"/>
+      <path d="M28 8 V 14"/><path d="M28 42 V 48"/>
+      <path d="M8 28 H 14"/><path d="M42 28 H 48"/>
+      <path d="M14 14 L 18 18"/><path d="M38 38 L 42 42"/>
+      <path d="M42 14 L 38 18"/><path d="M14 42 L 18 38"/>
+      <path d="M28 28 m -2 -1 q 2 -1 4 0 M 28 28 m -3 1 q 3 2 6 0" stroke-width="0.9" />
+    </svg>
+
+    <span class="stamp ink-in ink-in-1">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 2 L14 8 L20 8 L15 12 L17 19 L12 15 L7 19 L9 12 L4 8 L10 8 Z"/>
+      </svg>
+      a small workshop · always open
+    </span>
+
+    <h1 class="title ink-in ink-in-2">Aryan<span class="dot">.</span></h1>
+
+    <!-- wax seal monogram, "stamped" beside the name -->
+    <svg class="wax-seal seal-in"
+         style="width: 84px; height: 84px; top: 30px; right: 80px;"
+         viewBox="0 0 100 100" aria-hidden="true">
+      <defs>
+        <radialGradient id="seal-grad" cx="40%" cy="40%" r="60%">
+          <stop offset="0%"  stop-color="#c14a28"/>
+          <stop offset="70%" stop-color="#a23a18"/>
+          <stop offset="100%" stop-color="#7d2c10"/>
+        </radialGradient>
+      </defs>
+      <!-- imperfect wax circle -->
+      <path d="M50 6
+               C 70 6, 92 22, 94 46
+               C 96 66, 82 88, 58 94
+               C 38 96, 12 86, 8 60
+               C 4 38, 22 10, 50 6 Z"
+            fill="url(#seal-grad)" stroke="#7d2c10" stroke-width="0.8"/>
+      <!-- inner ring -->
+      <circle cx="50" cy="50" r="32" fill="none" stroke="rgba(255,240,220,0.4)" stroke-width="1" stroke-dasharray="2 3"/>
+      <!-- monogram A -->
+      <text x="50" y="62" text-anchor="middle" font-size="40">A</text>
+      <!-- decorative dots -->
+      <circle cx="50" cy="22" r="1.8" fill="rgba(255,240,220,0.45)"/>
+      <circle cx="50" cy="78" r="1.8" fill="rgba(255,240,220,0.45)"/>
+    </svg>
+
+    <!-- hand-drawn underline -->
+    <svg class="underline-doodle long ink-in ink-in-2" viewBox="0 0 420 14"
+         fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"
+         aria-hidden="true">
+      <path d="M2 8 Q 60 2, 120 7 T 240 6 T 360 8 L 416 5"/>
+    </svg>
+
+    <p class="tagline ink-in ink-in-3">small things, made by hand.</p>
+
+    <!-- marginalia note pointing at the title -->
+    <div class="marginalia tilt-r ink-in ink-in-4"
+         style="top: 90px; left: calc(100% - 0px); width: 160px; padding-left: 30px;">
+      <svg width="44" height="40" viewBox="0 0 44 40" fill="none" stroke="var(--ink-faint)"
+           stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+           style="position:absolute; left: -20px; top: -2px;">
+        <path d="M40 28 Q 28 26 18 22 Q 10 19 4 12"/>
+        <path d="M4 12 L 10 14"/>
+        <path d="M4 12 L 6 6"/>
+      </svg>
+      that's me — <br>
+      maker of <br>
+      modest apps.
+    </div>
+
+    <p class="intro ink-in ink-in-3">
+      This is a quiet hallway. It links to a few apps I've made and the
+      small print that goes with them — privacy, terms, a way to get hold
+      of me. No tracking. No newsletter pop-ups. Just paper and a few
+      drawings I couldn't help making.
+    </p>
+
+    <!-- small botanical sprig under the intro -->
+    <svg style="display:block; margin: 28px 0 0 0; opacity: 0.6;"
+         width="120" height="40" viewBox="0 0 120 40" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M2 30 Q 30 18, 60 22 T 118 18"/>
+      <!-- leaves -->
+      <path d="M22 24 Q 18 18 22 14 Q 28 18 22 24" fill="none"/>
+      <path d="M44 22 Q 40 16 44 12 Q 50 16 44 22" fill="none"/>
+      <path d="M70 22 Q 66 28 70 32 Q 76 28 70 22" fill="none"/>
+      <path d="M96 19 Q 92 13 96 9  Q 102 13 96 19" fill="none"/>
+      <!-- berries -->
+      <circle cx="36" cy="28" r="1.4"/>
+      <circle cx="86" cy="26" r="1.4"/>
+    </svg>
+  </header>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FLOURISH 1  —  ornate divider with ampersand
+       ════════════════════════════════════════════════════════════ -->
+  <div class="flourish ink-in ink-in-4" aria-hidden="true">
+    <svg width="180" height="20" viewBox="0 0 180 20" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <path d="M2 10 H 60"/>
+      <path d="M70 10 Q 80 4, 90 10 T 110 10"/>
+      <circle cx="120" cy="10" r="1.5" fill="var(--ink-faint)"/>
+      <path d="M130 10 H 178"/>
+    </svg>
+    <span class="ast">&amp;</span>
+    <svg width="180" height="20" viewBox="0 0 180 20" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <path d="M2 10 H 50"/>
+      <circle cx="60" cy="10" r="1.5" fill="var(--ink-faint)"/>
+      <path d="M70 10 Q 80 16, 90 10 T 110 10"/>
+      <path d="M120 10 H 178"/>
+    </svg>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       APPS
+       ════════════════════════════════════════════════════════════ -->
+  <section style="position: relative;">
+
+    <!-- marginalia: arrow pointing down at the apps -->
+    <div class="marginalia tilt-l ink-in ink-in-5"
+         style="top: -8px; left: -150px; text-align: right; width: 130px;">
+      here it is —<br>
+      first one out
+      <svg width="40" height="48" viewBox="0 0 40 48" fill="none" stroke="var(--ink-faint)"
+           stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"
+           style="margin-left: auto; margin-top: 4px;">
+        <path d="M20 4 Q 22 18 16 30 Q 14 36 18 44"/>
+        <path d="M18 44 L 12 40"/>
+        <path d="M18 44 L 22 38"/>
+      </svg>
+    </div>
+
+    <div class="section-head">
+      <h2>The apps.</h2>
+      <span class="section-meta">~ what I ship ~</span>
+    </div>
+
+    <div class="apps">
+
+      <!-- ──────── Quordle ──────── -->
+      <article class="card ink-in ink-in-5">
+        <svg class="corner-flourish" viewBox="0 0 22 22" fill="none" stroke="var(--accent)"
+             stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 12 Q 6 6, 12 4"/>
+          <path d="M5 4 L 12 4 L 12 11"/>
+        </svg>
+        <span class="doodle-mark">
+          <svg viewBox="0 0 28 28" fill="none" stroke="var(--ink)" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3"  y="4"  width="10" height="9" rx="1"/>
+            <rect x="3"  y="15" width="10" height="9" rx="1"/>
+            <rect x="15" y="4"  width="10" height="9" rx="1"/>
+            <rect x="15" y="15" width="10" height="9" rx="1"/>
+          </svg>
+        </span>
+        <span class="kicker">~ word puzzle</span>
+        <h3>Quordle</h3>
+        <p>Solve four words at once. Daily puzzles, streaks, widgets, Spotlight, Siri shortcuts, and a gentle reminder if you forget to play. Free, with optional Premium.</p>
+        <div class="card-links">
+          <a class="primary" href="https://apps.apple.com/app/quordle/id1623575315" target="_blank" rel="noopener">visit</a>
+          <a href="quordle/privacy.html">privacy</a>
+          <span class="sep">·</span>
+          <a href="quordle/terms.html">terms</a>
+          <span class="sep">·</span>
+          <a href="quordle/support.html">support</a>
+        </div>
+      </article>
+
+      <!-- ──────── more soon ──────── -->
+      <article class="card placeholder ink-in ink-in-5" style="grid-column: 1 / -1;">
+        <svg class="desk-doodle" viewBox="0 0 90 60" fill="none" stroke="var(--ink-faint)"
+             stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- desk surface -->
+          <path d="M4 48 H 86"/>
+          <!-- paper -->
+          <path d="M14 32 L 38 28 L 42 48 L 18 50 Z"/>
+          <path d="M18 36 L 36 33"/>
+          <path d="M19 40 L 37 37"/>
+          <path d="M20 44 L 35 41"/>
+          <!-- inkpot -->
+          <path d="M52 44 H 64 V 36 Q 64 34 62 34 H 54 Q 52 34 52 36 Z"/>
+          <path d="M55 34 V 30 H 61 V 34"/>
+          <!-- quill -->
+          <path d="M68 14 Q 72 10 76 14 L 70 24 Q 64 30 56 32"/>
+          <path d="M68 14 L 62 22"/>
+          <path d="M70 16 L 64 24"/>
+          <!-- coffee cup steam -->
+          <path d="M74 50 Q 78 46, 76 42 T 80 36"/>
+          <ellipse cx="78" cy="50" rx="3" ry="1.5"/>
+        </svg>
+        <span>more soon — there's always something on the desk.</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FLOURISH 2  —  moon and stars
+       ════════════════════════════════════════════════════════════ -->
+  <div class="flourish" aria-hidden="true">
+    <svg width="160" height="22" viewBox="0 0 160 22" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <path d="M2 11 Q 30 4, 60 11"/>
+      <path d="M70 11 H 152"/>
+      <circle cx="156" cy="11" r="1" fill="var(--ink-faint)"/>
+    </svg>
+    <svg width="46" height="32" viewBox="0 0 46 32" fill="none" stroke="var(--accent)"
+         stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- crescent -->
+      <path d="M28 16 Q 18 6 24 22 Q 32 22 28 16 Z" fill="rgba(162,58,24,0.08)"/>
+      <!-- stars -->
+      <path d="M8 8 L 10 4 L 12 8 L 16 10 L 12 12 L 10 16 L 8 12 L 4 10 Z" fill="var(--accent)" opacity="0.7"/>
+      <circle cx="40" cy="6" r="0.9" fill="var(--accent)"/>
+      <circle cx="42" cy="22" r="0.9" fill="var(--accent)"/>
+    </svg>
+    <svg width="160" height="22" viewBox="0 0 160 22" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <circle cx="4" cy="11" r="1" fill="var(--ink-faint)"/>
+      <path d="M8 11 H 90"/>
+      <path d="M100 11 Q 130 18, 158 11"/>
+    </svg>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       ABOUT + CONTACT
+       ════════════════════════════════════════════════════════════ -->
+  <section class="columns" style="position: relative;">
+
+    <!-- right-margin marginalia -->
+    <div class="marginalia tilt-r"
+         style="top: 60px; right: -130px; width: 110px;">
+      ~ p.s. <br>
+      I read every <br>
+      message →
+    </div>
+
+    <div>
+      <div class="section-head" style="margin-top: 0; margin-bottom: 14px;">
+        <h2>The maker.</h2>
+      </div>
+      <p>I make small, useful, opinionated apps — the kind I wished existed. Some are free, some have a paid tier, all are things I'd happily use myself.</p>
+      <p>The site you're on was hand-coded and over-doodled in a single afternoon. It exists so the small print has a nice place to live.</p>
+    </div>
+
+    <div>
+      <div class="section-head" style="margin-top: 0; margin-bottom: 14px;">
+        <h2>Say hello.</h2>
+      </div>
+      <ul class="scratch-list">
+        <li>
+          <a href="https://github.com/aryan1107" target="_blank" rel="noopener">github.com/aryan1107</a>
+          <span class="label">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="9" r="6.5"/>
+              <path d="M9 6 V 12"/><path d="M6 9 H 12"/>
+            </svg>
+            for the curious
+          </span>
+        </li>
+        <li>
+          <span>each app has its own support page — see the cards above.</span>
+          <span class="label">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 14 Q 9 4, 15 14"/>
+              <circle cx="9" cy="11" r="1.4"/>
+            </svg>
+            for help
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FLOURISH 3  —  a final ornament
+       ════════════════════════════════════════════════════════════ -->
+  <div class="flourish tight" style="margin-top: 72px;" aria-hidden="true">
+    <svg width="60" height="20" viewBox="0 0 60 20" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <path d="M2 10 Q 20 2 30 10"/>
+    </svg>
+    <span class="ast" style="font-size: 24px;">~ fin ~</span>
+    <svg width="60" height="20" viewBox="0 0 60 20" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.1" stroke-linecap="round">
+      <path d="M30 10 Q 40 18 58 10"/>
+    </svg>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════════════════════════ -->
+  <footer>
+
+    <!-- a tiny paper-airplane doodle floating in -->
+    <svg style="position:absolute; top: -28px; left: 50%; transform: translateX(-50%) rotate(-10deg); opacity: 0.5;"
+         width="36" height="20" viewBox="0 0 36 20" fill="none" stroke="var(--ink-faint)"
+         stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M2 18 L 34 4 L 22 18 L 18 12 Z"/>
+      <path d="M2 18 L 18 12"/>
+    </svg>
+
+    <div>
+      © <span id="year"></span> Aryan · all rights reserved.
+    </div>
+    <div class="signature">— made with care.</div>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.addEventListener('pointermove', (e) => {
+    document.body.style.setProperty('--mx', (e.clientX / window.innerWidth * 100) + '%');
+    document.body.style.setProperty('--my', (e.clientY / window.innerHeight * 100) + '%');
+  });
+</script>
+</body>
+</html>

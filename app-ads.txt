@@ -1,0 +1,5 @@
+# app-ads.txt — authorized sellers for the mobile apps below.
+# Crawled by AdMob from the root of the developer URL listed in
+# App Store Connect / Play Console. One file covers all apps.
+
+google.com, pub-8090414809577960, DIRECT, f08c47fec0942fa0

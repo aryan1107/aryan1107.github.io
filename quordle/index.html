@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quordle — Aryan</title>
+  <meta name="description" content="Solve four words at once. Daily puzzles, streaks, widgets, Spotlight, and reminders — for iPhone, iPad, Mac, and Vision Pro.">
+  <link rel="stylesheet" href="../assets/eink.css">
+</head>
+<body>
+<div class="wrap narrow">
+
+  <a class="back-link ink-in ink-in-1" href="../index.html">
+    <svg viewBox="0 0 20 14" fill="none" stroke="currentColor"
+         stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 2 L 2 7 L 8 12"/><path d="M2 7 H 18"/>
+    </svg>
+    back to the workshop
+  </a>
+
+  <header class="app-hero">
+    <span class="kicker ink-in ink-in-2">~ word puzzle</span>
+    <h1 class="ink-in ink-in-2">Quordle.</h1>
+
+    <svg class="underline-doodle ink-in ink-in-2" viewBox="0 0 280 14"
+         fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"
+         aria-hidden="true">
+      <path d="M2 8 Q 40 2, 80 7 T 160 6 T 240 8 L 276 5"/>
+    </svg>
+
+    <p class="intro ink-in ink-in-3">
+      Four words at once. One daily puzzle. Streaks, widgets, Siri,
+      Spotlight, and a gentle nudge if you forget to play. Free to
+      play, optional Premium to remove ads.
+    </p>
+
+    <!-- a small 2x2 grid doodle echoing Quordle's four-board layout -->
+    <svg style="display:block; margin: 24px 0 0; opacity: 0.6;"
+         width="100" height="46" viewBox="0 0 100 46" fill="none"
+         stroke="var(--ink-faint)" stroke-width="1.3"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="4"  y="6"  width="36" height="14" rx="1.5"/>
+      <rect x="4"  y="24" width="36" height="14" rx="1.5"/>
+      <rect x="48" y="6"  width="36" height="14" rx="1.5"/>
+      <rect x="48" y="24" width="36" height="14" rx="1.5"/>
+      <path d="M88 22 Q 94 18 98 22" />
+      <path d="M98 22 L 94 20"/>
+      <path d="M98 22 L 94 24"/>
+    </svg>
+  </header>
+
+  <div class="app-links-grid ink-in ink-in-4">
+    <a class="app-link external" href="https://apps.apple.com/app/quordle/id1623575315" target="_blank" rel="noopener">
+      <span class="label">try it</span>
+      <span class="name">App Store</span>
+    </a>
+    <a class="app-link" href="privacy.html">
+      <span class="label">the small print</span>
+      <span class="name">privacy policy</span>
+    </a>
+    <a class="app-link" href="terms.html">
+      <span class="label">the small print</span>
+      <span class="name">terms of service</span>
+    </a>
+    <a class="app-link" href="support.html">
+      <span class="label">need a hand?</span>
+      <span class="name">support</span>
+    </a>
+  </div>
+
+  <div class="flourish ink-in ink-in-5" aria-hidden="true">
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 2, 40 7 T 78 7"/>
+    </svg>
+    <span class="ast">❦</span>
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 12, 40 7 T 78 7"/>
+    </svg>
+  </div>
+
+  <section class="ink-in ink-in-5">
+    <h2>About Quordle.</h2>
+    <p>
+      Quordle is a daily word puzzle for iPhone, iPad, Mac, and Apple
+      Vision Pro. You have nine guesses to solve four five-letter words
+      at the same time — easier said than done. Every day brings a fresh
+      puzzle; the practice mode is unlimited.
+    </p>
+    <p>
+      The free version is supported by ads. A one-time Premium upgrade
+      removes them and unlocks a few small extras. Either way, your
+      streak and stats sync across your Apple devices, and home-screen
+      and lock-screen widgets keep today's status one glance away.
+    </p>
+    <h2>What's inside.</h2>
+    <ul>
+      <li>A new four-word daily puzzle, plus unlimited practice.</li>
+      <li>Home-screen and lock-screen widgets for streaks at a glance.</li>
+      <li>Siri shortcuts and Spotlight search — say it or search it, jump straight in.</li>
+      <li>A gentle reminder if you've been away for a day or more, never spammy.</li>
+      <li>iCloud sync so your stats follow you between devices.</li>
+      <li>Built-in chat helper to talk through tricky boards (optional).</li>
+    </ul>
+  </section>
+
+  <footer class="ink-in ink-in-6">
+    <div>
+      © <span id="year"></span> Aryan<br>
+      <a href="../index.html">workshop</a>
+    </div>
+    <div class="signature">— made with care.</div>
+  </footer>
+
+</div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.addEventListener('pointermove', (e) => {
+    document.body.style.setProperty('--mx', (e.clientX / window.innerWidth * 100) + '%');
+    document.body.style.setProperty('--my', (e.clientY / window.innerHeight * 100) + '%');
+  });
+</script>
+</body>
+</html>

@@ -1,16 +1,16 @@
-# Privacy Policy — Quordle
+# Privacy Policy — Quad Words
 
-This explains what information **Quordle** ("the app") handles, how it
+This explains what information **Quad Words** ("the app") handles, how it
 is used, and what choices you have. Plain English where possible. If
 anything is unclear, see the [support page](support.html) for ways to
 reach us.
 
-Quordle is offered free of charge with optional in-app purchases. By
-using Quordle you agree to the practices described here.
+Quad Words is offered free of charge with optional in-app purchases. By
+using Quad Words you agree to the practices described here.
 
 ## Summary
 
-Quordle is **anonymous** — no sign-up, no username, no email. We do
+Quad Words is **anonymous** — no sign-up, no username, no email. We do
 not create or store an account for you. Your puzzle progress lives on
 your device. The only data we share with third parties is a **device
 identifier (Device ID)** — used for app analytics, advertising in the
@@ -51,7 +51,7 @@ We try to collect as little as possible.
   no email, no password.
 - **No personal contact info.** We don't ask for, collect, or store
   your name, email, phone number, or address.
-- **No chat history.** Quordle has an optional in-app chat helper.
+- **No chat history.** Quad Words has an optional in-app chat helper.
   Your messages are sent to a third-party AI service to generate a
   response and are **not retained by us**. We don't keep a
   server-side copy of your conversations. (The third-party AI
@@ -63,12 +63,12 @@ We try to collect as little as possible.
 
 ## Advertising and App Tracking Transparency (iOS)
 
-The free version of Quordle is supported by ads. To keep the app
+The free version of Quad Words is supported by ads. To keep the app
 free and ads relevant, our ad partners may use your device's
 advertising identifier (IDFA on iOS).
 
 On iOS, Apple requires apps to ask before any cross-app tracking.
-The first time you set up Quordle (or shortly after, if you already
+The first time you set up Quad Words (or shortly after, if you already
 had it installed before ads shipped), you'll see Apple's standard
 **App Tracking Transparency** prompt:
 
@@ -82,7 +82,7 @@ content, or feature loss based on your tracking choice.
 You can change this at any time:
 
 - **iOS-wide:** Settings → Privacy & Security → Tracking
-- **Per app:** Settings → Quordle → Allow Tracking
+- **Per app:** Settings → Quad Words → Allow Tracking
 
 If you upgrade to Premium, ads are removed entirely and no
 ad-related identifiers are shared.
@@ -114,7 +114,7 @@ nothing is sent from a server, and we do not track whether you
 opened them.
 
 You can turn them off at any time in **Settings → Notifications →
-Quordle**.
+Quad Words**.
 
 ## Photo Library
 
@@ -140,7 +140,7 @@ Settings any time.
 
 ## Children
 
-Quordle is not directed at children under 13 (or the equivalent age
+Quad Words is not directed at children under 13 (or the equivalent age
 in your jurisdiction). We do not knowingly collect personal
 information from children under 13.
 

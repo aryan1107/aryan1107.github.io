@@ -1,10 +1,10 @@
-# Terms of Service — Quordle
+# Terms of Service — Quad Words
 
-These terms govern your use of **Quordle** ("the app"). By installing
-or using Quordle, you agree to them. If you don't agree, please don't
+These terms govern your use of **Quad Words** ("the app"). By installing
+or using Quad Words, you agree to them. If you don't agree, please don't
 use the app.
 
-## 1. Who can use Quordle
+## 1. Who can use Quad Words
 
 You should be at least 13 years old (or the equivalent minimum age in
 your jurisdiction) to use the app. If you sign in, you're responsible
@@ -14,7 +14,7 @@ under your account.
 ## 2. License to use
 
 You're granted a personal, non-transferable, non-exclusive, revocable
-license to install and use Quordle on devices you own or control, for
+license to install and use Quad Words on devices you own or control, for
 your personal, non-commercial use. You may not:
 
 - Copy, modify, redistribute, or sell the app or its content.
@@ -26,7 +26,7 @@ your personal, non-commercial use. You may not:
 
 ## 3. Free version, ads, and Premium
 
-Quordle is free to play, supported by ads. A one-time **Premium**
+Quad Words is free to play, supported by ads. A one-time **Premium**
 upgrade removes ads and unlocks any extras described at the point of
 purchase.
 
@@ -55,7 +55,7 @@ You agree not to:
 
 ## 6. Third-party services
 
-Quordle integrates with third-party services for sign-in, payments,
+Quad Words integrates with third-party services for sign-in, payments,
 ads, and diagnostics. Your use of those services is governed by
 their own terms — I'm not responsible for what they do.
 

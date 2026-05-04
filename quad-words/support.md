@@ -1,15 +1,15 @@
-# Support — Quordle
+# Support — Quad Words
 
 Need a hand? You're in the right place. There are two ways to reach
 us: a one-tap **Support** button inside the app, or a regular email.
 
 ## The fastest way — in the app
 
-Open Quordle, then go to **Settings → Support / Contact** and tap the
-**Support** button. It opens a pre-filled email that includes your
-account ID, app version, and device details — which means we can
-usually find and fix the problem on the first reply, instead of going
-back-and-forth asking what device you're on.
+Open Quad Words, then go to **Settings → Support / Contact** and tap the
+**Support** button. It opens a pre-filled email that includes an
+anonymous device reference, the app version, and your device details
+— which means we can usually find and fix the problem on the first
+reply, instead of going back-and-forth asking what device you're on.
 
 If you can, please add:
 
@@ -22,7 +22,7 @@ Prefer plain email, or the app won't open? You can reach us at the
 address below. Tap or copy it — it's a real working email, written
 with brackets so automated bots don't scrape it:
 
-> [**app+quordle \[at\] brutusai \[dot\] com**](mailto:app+quordle@brutusai.com)
+> [**app+quadwords \[at\] brutusai \[dot\] com**](mailto:app+quadwords@brutusai.com)
 
 (Type or click — both work.) We read every message and usually reply
 within one business day.
@@ -41,35 +41,33 @@ effect at the end of the current billing period.
 Sign in with the same Apple ID you used to purchase, then in the app
 go to **Settings → Restore Purchases**. Premium will reactivate.
 
-### How do I delete my account?
+### How do I delete my data?
 
-If you signed in, email the support address above (or use the in-app
-**Support** button) with the subject "Delete my account" and we'll
-remove your synced data within a reasonable time, typically 30 days.
-If you never signed in, simply deleting the app removes everything —
-your data is local-only.
+Quad Words is anonymous — there is no account to delete. All your game
+data lives on your device. To remove everything, just delete the
+app from your device and your data is gone.
 
 ### How do I turn off notifications?
 
-**Settings (iOS) → Notifications → Quordle**, then toggle off.
+**Settings (iOS) → Notifications → Quad Words**, then toggle off.
 
 ### How do I change my tracking choice?
 
 **Settings → Privacy & Security → Tracking** (iOS-wide), or
-**Settings → Quordle → Allow Tracking** (per-app).
+**Settings → Quad Words → Allow Tracking** (per-app).
 
 ### My streak / stats look wrong
 
 If progress isn't syncing across devices, make sure you're signed in
-with the same account on each device, and that iCloud is enabled.
+with the same Apple ID on each device and that iCloud is enabled.
 Then pull-to-refresh on the stats screen. If it still looks off,
-reach out via Support — please include your account ID (visible in
-**Settings → Account**).
+reach out via the in-app **Support** button — it auto-attaches the
+anonymous reference we need to debug.
 
 ### Something else?
 
 Tap the **Support** button in the app, or email
-[app+quordle \[at\] brutusai \[dot\] com](mailto:app+quordle@brutusai.com).
+[app+quadwords \[at\] brutusai \[dot\] com](mailto:app+quadwords@brutusai.com).
 We read every message.
 
 ## Feedback

@@ -28,6 +28,16 @@ Worldle is free to play, supported by ads. A one-time **Premium**
 upgrade removes ads and unlocks any extras described at the point
 of purchase.
 
+- **Ads are served by Google AdMob**, Google's mobile advertising
+  network. The developer does **not** choose, review, or control
+  which specific ads appear — Google auctions every ad slot in
+  real time using its own targeting and inventory. If you see an
+  ad that is offensive, misleading, or otherwise inappropriate,
+  please use Apple's "Report a Concern" on the ad itself; that
+  flag reaches Google, who can act on it. We have no ability to
+  remove or block individual ads.
+- Premium removes ads entirely — if seeing ads at all is the
+  concern, upgrading is the only fully reliable fix.
 - Purchases are processed by the Apple App Store. Apple's terms
   apply to billing, refunds, and subscriptions — see Apple's
   standard EULA.
@@ -55,10 +65,11 @@ You agree not to:
 
 ## 6. Third-party services
 
-Worldle integrates with third-party services for payments, ads,
-diagnostics, and the optional AI chat. Your use of those services
-is governed by their own terms — we're not responsible for what
-they do.
+Worldle integrates with third-party services for payments,
+advertising (Google AdMob), diagnostics, and the optional AI chat.
+Your use of those services is governed by their own terms — we're
+not responsible for what they do or, in the case of ads, which
+specific creatives they serve.
 
 ## 7. App availability and changes
 

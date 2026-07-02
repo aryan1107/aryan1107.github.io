@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imagen — Aryan</title>
+  <meta name="description" content="Imagen is an AI image studio for creating, editing, organizing, and refining images on iPhone, iPad, and Mac.">
+  <link rel="stylesheet" href="../assets/eink.css">
+</head>
+<body>
+<div class="wrap narrow">
+
+  <a class="back-link ink-in ink-in-1" href="../index.html">
+    <svg viewBox="0 0 20 14" fill="none" stroke="currentColor"
+         stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 2 L 2 7 L 8 12"/><path d="M2 7 H 18"/>
+    </svg>
+    back to the workshop
+  </a>
+
+  <header class="app-hero">
+    <span class="kicker ink-in ink-in-2">~ AI image studio</span>
+    <h1 class="ink-in ink-in-2">Imagen.</h1>
+
+    <svg class="underline-doodle ink-in ink-in-2" viewBox="0 0 280 14"
+         fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"
+         aria-hidden="true">
+      <path d="M2 8 Q 40 2, 80 7 T 160 6 T 240 8 L 276 5"/>
+    </svg>
+
+    <p class="intro ink-in ink-in-3">
+      Describe an image, edit what you made, collect your favorites,
+      and train a custom style when you want a look that feels yours.
+      Imagen is an AI image studio for iPhone, iPad, and Mac, with a
+      free starter tier and optional paid plans.
+    </p>
+
+    <!-- a small picture-frame doodle -->
+    <svg style="display:block; margin: 24px 0 0; opacity: 0.6;"
+         width="132" height="54" viewBox="0 0 132 54" fill="none"
+         stroke="var(--ink-faint)" stroke-width="1.3"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="8" y="10" width="44" height="34" rx="3"/>
+      <path d="M14 36 L 25 26 L 33 32 L 40 22 L 48 36"/>
+      <circle cx="22" cy="19" r="3"/>
+      <path d="M64 28 Q 78 18 92 28 T 124 24"/>
+      <path d="M124 24 L 118 22"/>
+      <path d="M124 24 L 122 29"/>
+    </svg>
+  </header>
+
+  <div class="app-links-grid ink-in ink-in-4">
+    <a class="app-link external" href="https://apps.apple.com/app/id1671091318" target="_blank" rel="noopener">
+      <span class="label">try it</span>
+      <span class="name">App Store</span>
+    </a>
+    <a class="app-link" href="privacy.html">
+      <span class="label">the small print</span>
+      <span class="name">privacy policy</span>
+    </a>
+    <a class="app-link" href="terms.html">
+      <span class="label">the small print</span>
+      <span class="name">terms of service</span>
+    </a>
+    <a class="app-link" href="support.html">
+      <span class="label">need a hand?</span>
+      <span class="name">support</span>
+    </a>
+  </div>
+
+  <div class="flourish ink-in ink-in-5" aria-hidden="true">
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 2, 40 7 T 78 7"/>
+    </svg>
+    <span class="ast">❦</span>
+    <svg width="80" height="14" viewBox="0 0 80 14" fill="none" stroke="currentColor"
+         stroke-width="1.2" stroke-linecap="round">
+      <path d="M2 7 Q 20 12, 40 7 T 78 7"/>
+    </svg>
+  </div>
+
+  <section class="ink-in ink-in-5">
+    <h2>About Imagen.</h2>
+    <p>
+      Imagen is a creative image tool for generating artwork from text,
+      editing existing images, saving generated work, and building a
+      personal style library. It is made for quick sketches, polished
+      concepts, character ideas, product visuals, social posts, and any
+      other image you want to explore.
+    </p>
+    <p>
+      Some tools run on your device. AI generation, editing, chat, and
+      custom style training use online processing and may spend credits.
+      The app includes a free starter tier, with optional paid plans for
+      higher limits and more frequent use.
+    </p>
+    <h2>What's inside.</h2>
+    <ul>
+      <li>Text-to-image generation with aspect ratio, style, and model controls.</li>
+      <li>Image editing tools for refining or transforming existing pictures.</li>
+      <li>Assets and history so you can find what you created later.</li>
+      <li>Custom style training for looks you want to reuse.</li>
+      <li>A chat mode for iterating on image ideas conversationally.</li>
+    </ul>
+  </section>
+
+  <footer class="ink-in ink-in-6">
+    <div>
+      © <span id="year"></span> Aryan<br>
+      <a href="../index.html">workshop</a>
+    </div>
+    <div class="signature">— made with care.</div>
+  </footer>
+
+</div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.addEventListener('pointermove', (e) => {
+    document.body.style.setProperty('--mx', (e.clientX / window.innerWidth * 100) + '%');
+    document.body.style.setProperty('--my', (e.clientY / window.innerHeight * 100) + '%');
+  });
+</script>
+</body>
+</html>
